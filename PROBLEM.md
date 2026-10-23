@@ -1,10 +1,10 @@
 # The problem this code solves
 
 > **Note on this document.** The original exercise was distributed as a hiring
-> work sample. This is a paraphrased restatement of its requirements, written to
-> describe the problem without reproducing the source document or identifying the
-> company that issued it. The requirements below are complete enough to
-> understand, run and evaluate the solution in this repository.
+> work sample. What follows is a restatement of its requirements in my own words:
+> it reproduces no part of the source document and does not identify the company
+> that issued it. It is complete enough to understand, run and evaluate the
+> solution in this repository.
 
 ## Background
 
@@ -46,13 +46,13 @@ A Python 3 command-line script that:
 
 ## Guidance the exercise gave
 
-- **On bugs and missing data.** "There will be some inconsistencies and missing
-  data in the API's responses. If the missing data compromises the team
-  experience calculations, exclude the offending teams or players. Otherwise,
-  simply ignore the missing fields."
-- **On unexplained decisions.** "When making design decisions for issues not
-  acknowledged in this prompt, use your best judgement and explain your reasoning
-  in comments and docstrings."
+- **On missing data.** The brief warned that the responses would contain
+  inconsistencies and gaps. Where a gap would compromise the team experience
+  calculation, the offending teams or players were to be excluded; where it would
+  not, the missing fields were simply to be ignored.
+- **On undecided details.** For anything the brief did not settle, it asked for
+  best judgement rather than a particular answer — with the reasoning written down
+  in comments and docstrings.
 - **On dependencies.** Open-source packages were permitted, with dependencies
   declared in any conventional format. The team that issued the exercise also
   stated a preference for a simple, complete and correct solution over a complex

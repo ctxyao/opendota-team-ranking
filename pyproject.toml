@@ -1,0 +1,19 @@
+[project]
+name = "opendota-team-ranking"
+version = "1.0.0"
+description = "Rank Dota 2 teams by the combined recorded history of their professional players"
+readme = "PROBLEM.md"
+requires-python = ">=3.9"
+# No runtime dependencies: the script uses only the Python standard library.
+# The submitted artifact therefore lists no packages in requirements.txt.
+dependencies = []
+
+[dependency-groups]
+# Developer convenience only. The test suite is plain unittest and runs with
+# `python3 -m unittest`; pytest is declared so editor/CI runners and repository
+# commit gates can drive the same tests. It is never imported by template.py.
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = [".", "tests"]
+python_files = ["test_*.py"]

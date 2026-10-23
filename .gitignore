@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Local build artifacts
+opendota-solution.zip
+opendota-solution/
+
+# Editor and OS noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Captured API responses and any credential material stay out of the repository.
+# The test suite generates its own fixtures over a loopback server.
+*.env
+.env.*
+
+# uv / virtualenv created by `uv run`
+.venv/
+uv.lock

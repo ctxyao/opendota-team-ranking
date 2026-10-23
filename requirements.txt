@@ -1,0 +1,3 @@
+# Python 3.9+.
+# No third-party runtime or test dependencies; everything uses the standard library.
+# Optional: if PyYAML happens to be installed, two extra YAML cross-check tests run.

@@ -1,0 +1,26 @@
+as_of: "2026-01-03T00:00:00Z"
+experience_unit: "microseconds"
+teams:
+  - team_name: "Example Team"
+    team_id: 10
+    wins: 12
+    losses: 3
+    rating: 1234.5
+    team_experience: 259199750000
+    players:
+      - personaname: "Alice"
+        player_experience: 172799750000
+        country_code: "us"
+      - personaname: "Bob"
+        player_experience: 86400000000
+        country_code: "gb"
+  - team_name: "New Squad"
+    team_id: 20
+    wins: null
+    losses: null
+    rating: null
+    team_experience: 129600000000
+    players:
+      - personaname: "Chen"
+        player_experience: 129600000000
+        country_code: null
